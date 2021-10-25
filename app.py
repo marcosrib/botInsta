@@ -64,5 +64,5 @@ class InstagramBot:
  
         
 
-teste = InstagramBot('fond_pet_oficial', 'Suel@2021$1')
+teste = InstagramBot('','')
 teste.teste()
