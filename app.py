@@ -87,5 +87,5 @@ class InstagramBot:
  
         
 
-instagramBot = InstagramBot('fond_pet_oficial','Suel@2021$1')
+instagramBot = InstagramBot('','')
 instagramBot.realizaCurtidaEComentario()
