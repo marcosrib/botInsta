@@ -24,7 +24,7 @@ class InstagramBot:
         chrome_prefs["profile.default_content_settings"] = {"images": 2}
         ##driver = webdriver.Remote(options=chrome_options)
 
-        hashtag = "animais"
+        hashtag = "euamogatoss"
 
         driver = webdriver.Chrome(options=chrome_options)
         driver.get('https://www.instagram.com')
@@ -76,7 +76,7 @@ class InstagramBot:
                 texteArea.send_keys(Keys.ENTER)
                 i + 1 
                 print(i)
-                sleep(8)
+                sleep(240)
             except Exception as e:
                 print("Erro ao comentsr ou curtir")
               
@@ -87,5 +87,5 @@ class InstagramBot:
  
         
 
-instagramBot = InstagramBot('','')
+instagramBot = InstagramBot('fond_pet_oficial','Suel@2021$1')
 instagramBot.realizaCurtidaEComentario()
